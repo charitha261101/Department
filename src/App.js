@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Departments from "./Departments.js";
-import {Dep1,Dep2,Dep3,Dep4,Dep5} from "./Departments.js";
+import {Dep1,Dep2AndDep3,Dep4AndDep5} from "./Departments.js";
 function App(){
   return(
     <>
@@ -11,15 +11,14 @@ function App(){
     <Dep1/>
     </div>
     <div className='grid2'>
-    <Dep2/>
-    <Dep3/>
+    <Dep2AndDep3/>
     </div>
     <div className='grid3'>
-    <Dep4/>
-    <Dep5/>
+    <Dep4AndDep5/>
     </div>
     </div>
     </>
+  
   );
 }
 export default App;
